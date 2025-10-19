@@ -1,0 +1,14 @@
+@reference '../../styles/global.css';
+
+.input {
+
+}
+
+.input.input--text {
+  @apply p-3 border rounded;
+}
+
+.input.input--checkbox {
+  height: 2rem;
+  width: 2rem;
+}

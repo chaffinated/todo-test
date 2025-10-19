@@ -1,0 +1,24 @@
+@reference '../../styles/global.css';
+
+
+.button {
+
+}
+
+.button.button--primary {
+  color: white;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.button.button--secondary {
+  color: white;
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.button.button--transparent {
+  color: black;
+  background-color: transparent;
+  border-color: black;
+}
